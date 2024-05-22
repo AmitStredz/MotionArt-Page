@@ -2,7 +2,7 @@ import img5 from "./assets/motionarteffect-img5.png";
 
 export default function body3() {
   return (
-    <div className="md:flex justify-between">
+    <div className="md:flex max-md:flex-col flex justify-between gap-5">
       <div className="flex flex-col gap-6">
         <h1 className="text-white font-sora font-medium text-[25px] md:text-[30px] lg:text-[35px] leading-relaxed">
           Turn Your Cursor Into A Colourful Magic Wand & Charm Your Visitors
