@@ -11,11 +11,11 @@ import Footer from "./components/footer";
 
 export default function App() {
   return (
-    <div className="absolute ">
+    <div className="transition-all ">
       <div className="relative">
         <Fluid></Fluid>
       </div>
-      <div className="relative mx-36">
+      <div className="relative mx-6 2xl:mx-36">
         <Header></Header>
         <Body1></Body1>
         <Body2></Body2>

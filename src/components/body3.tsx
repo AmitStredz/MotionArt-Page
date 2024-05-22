@@ -2,18 +2,18 @@ import img5 from "./assets/motionarteffect-img5.png";
 
 export default function body3() {
   return (
-    <div className="flex justify-between">
+    <div className="md:flex justify-between">
       <div className="flex flex-col gap-6">
-        <h1 className="text-white font-sora font-medium text-[35px]">
+        <h1 className="text-white font-sora font-medium text-[25px] md:text-[30px] lg:text-[35px] leading-relaxed">
           Turn Your Cursor Into A Colourful Magic Wand & Charm Your Visitors
         </h1>
-        <p className="text-slate-300 font-outfit font-light text-[18px]">
+        <p className="text-slate-300 font-outfit font-light text-[16px] md:text-[18px] leading-relaxed">
           Motion Art for Elementor is a groundbreaking plugin that empowers you
           to effortlessly infuse your website with visually stunning motion art
           elements.
         </p>
-        <div className="flex justify-start cursor-pointer">
-          <div className="bg-gradient-to-r from-[#5E11FF] to-[#F87516] rounded-2xl font-sora text-[20px] text-white p-4 px-10 flex gap-3">
+        <div className="flex justify-start cursor-pointer max-md:justify-center">
+          <div className="bg-gradient-to-r from-[#5E11FF] to-[#F87516] rounded-2xl font-sora text-[20px] text-white p-4 md:px-10 flex gap-3">
             <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target="_blank">
               Purchase From Envato
             </a>
