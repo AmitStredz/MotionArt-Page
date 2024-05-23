@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-
 import Fluid from "./components/fluid";
 import Header from "./components/header";
 import Body1 from "./components/body1";
@@ -12,7 +10,6 @@ import Body7 from "./components/body7";
 import Footer from "./components/footer";
 
 export default function App() {
-  
   return (
     <div className="transition-all ">
       <div className="relative">
