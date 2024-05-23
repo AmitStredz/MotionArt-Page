@@ -1,6 +1,7 @@
 "use strict";
 
 var canvas = document.getElementsByTagName("canvas")[0];
+var body = document.body;
 
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
@@ -495,7 +496,8 @@ function resizeCanvas() {
 var count = 0;
 var colorArr = [Math.random() + 0.2, Math.random() + 0.2, Math.random() + 0.2];
 
-canvas.addEventListener("mousemove", function (e) {
+body.addEventListener("mousemove", function (e) {
+  console.log("hi", e.offsetX, e.offsetY);
   count++;
 
   count > 25 &&
@@ -516,6 +518,7 @@ canvas.addEventListener("mousemove", function (e) {
 });
 
 canvas.addEventListener(
+
   "touchmove",
   function (e) {
     e.preventDefault();
@@ -523,6 +526,8 @@ canvas.addEventListener(
     var touches = e.targetTouches;
 
     count++;
+    console.log("hello");
+
 
     count > 25 &&
       ((colorArr = [
