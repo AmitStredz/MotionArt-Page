@@ -13,10 +13,16 @@ export default function body3() {
           elements.
         </p>
         <div className="flex justify-start cursor-pointer max-md:justify-center">
-          <div className="bg-gradient-to-r from-[#5E11FF] to-[#F87516] rounded-2xl font-sora text-[20px] text-white p-4 md:px-10 flex gap-3">
-            <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target="_blank">
-              Purchase From Envato
-            </a>
+          <div
+            className="bg-gradient-to-r from-[#5E11FF] to-[#F87516] rounded-2xl font-sora text-[20px] text-white p-4 md:px-10 flex gap-3"
+            onClick={function redirent() {
+              window.open(
+                "https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891",
+                "_blank"
+              );
+            }}
+          >
+            <a>Purchase From Envato</a>
             <i className="ri-arrow-right-line text-2xl font-extralight"></i>
           </div>
         </div>
